@@ -1,0 +1,9 @@
+# Smart Contract Registry
+
+- This application can be used by install the requirements and running the registry_api.py file using command: 
+<br>
+``` uvicorn registry_api:app --reload ```
+<br>
+- The fastapi application will be running on port 8000. Access it with the url: ```http://{ip_address}:8000/docs```
+<br>
+- The database already contains the smart contract abi's (ERC20) that are ethereum chain and is between the year 2017 to 2020.
