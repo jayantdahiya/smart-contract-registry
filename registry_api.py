@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 import sqlite3
 
-conn = sqlite3.connect('contract_registry.db')
+conn = sqlite3.connect('contract_registry.db', check_same_thread=False)
 c = conn.cursor()
 
 
